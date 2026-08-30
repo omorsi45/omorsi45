@@ -2,88 +2,64 @@
 
 **GenAI Developer @ Ericsson · Computer Science @ Concordia University**
 
-I build AI systems that connect **LLMs, agents, tools, data, and software infrastructure**.
+I build software across **AI systems, backend services, machine learning, and infrastructure**. My current work includes LLM applications and agentic systems, while my broader interests span distributed systems, APIs, computer vision, and applied ML.
 
-My current focus is production-oriented GenAI: **agentic systems, RAG, MCP, context engineering, model routing, evaluation, and AI reliability**.
+### Areas I Work In
 
-[LinkedIn](https://www.linkedin.com/in/omarmorsi/) · [GitHub](https://github.com/omorsi45)
+**AI / GenAI** · LLMs · Agents · RAG · MCP · Evaluation · Context Engineering  
+**Software Engineering** · Backend · APIs · Distributed Systems · Databases · Cloud · Linux  
+**ML / Data** · PyTorch · Computer Vision · scikit-learn · Data Pipelines · Model Evaluation
 
----
-
-## What I Build
-
-```mermaid
-graph LR
-    A[User / Application] --> B[LLM Agent]
-    B --> C[Tools & MCP]
-    B --> D[RAG / Knowledge]
-    B --> E[Context Management]
-    C --> F[APIs & Infrastructure]
-    D --> B
-    E --> B
-    B --> G[Evaluation & Observability]
-```
-
-I am especially interested in the engineering problems around AI systems:
-
-- **Agents** — tool use, orchestration, model selection, and reliable execution
-- **Context** — long-context handling, compression, routing, and context-aware systems
-- **Knowledge** — RAG, retrieval, semantic search, and grounding
-- **Evaluation** — measuring quality, hallucinations, regressions, and model behavior
-- **Reliability** — testing, guardrails, failure handling, and production observability
-
-At Ericsson, I work on **Generative AI engineering** and AI-enabled software workflows.
+At Ericsson, I work on **Generative AI engineering and AI-enabled software workflows**.
 
 ---
 
-## Selected Work
+## Featured Work
 
 ### [HalluciScope](https://github.com/omorsi45/HalluciScope)
-**RAG hallucination detection and verification**
-
-DeBERTa NLI + self-consistency + semantic similarity + ensemble scoring, with a FastAPI/React interface and FAISS/Ollama-based retrieval stack.
+RAG hallucination detection using NLI, self-consistency, semantic similarity, and ensemble scoring. FastAPI, React, FAISS, and Ollama.
 
 ### [Surgical Workflow Analysis](https://github.com/omorsi45/surgical-workflow-analysis)
-**Multi-task deep learning for surgical video understanding**
-
-Phase recognition and surgical tool detection using PyTorch, ResNet-50, and temporal models. The project includes an audited evaluation pipeline with tests covering data handling, losses, metrics, masking, and model behavior.
+Multi-task deep learning for surgical video understanding using PyTorch, ResNet-50, and temporal models, with an audited evaluation pipeline.
 
 ### [NOVA](https://github.com/omorsi45/NOVA)
-**Network analysis and failure prediction**
-
-Python-based network telemetry analysis combined with GNS3 simulation and machine learning.
+Network telemetry analysis and failure prediction using Python, machine learning, and GNS3 simulation.
 
 ### Distributed Task Management API
-**Backend / distributed systems**
-
-Java + Spring Boot + PostgreSQL + Docker REST API for distributed task management.
+Java, Spring Boot, PostgreSQL, and Docker backend for distributed task management and REST APIs.
 
 ---
 
-## Engineering Focus
+## Engineering Stack
 
-| Area | Technologies / Concepts |
+| Area | Technologies |
 |---|---|
-| **GenAI** | LLMs · Agents · RAG · MCP · Tool Calling · Context Engineering |
-| **AI/ML** | PyTorch · TensorFlow · scikit-learn · Computer Vision · NLI |
+| **AI / GenAI** | LLMs · Agents · RAG · MCP · Tool Calling · Context Engineering |
+| **Machine Learning** | PyTorch · TensorFlow · scikit-learn · Computer Vision · NLI |
 | **Backend** | Python · Java · Node.js · FastAPI · Spring Boot · PostgreSQL |
 | **Infrastructure** | AWS · Docker · Linux · APIs · CI/CD |
-| **Developer Tools** | Git · GitHub · Jupyter · VS Code · GNS3 |
+| **Systems** | Distributed Systems · Networking · Databases · Data Pipelines |
 
 ---
 
-## How I Approach AI Engineering
+## GitHub Activity
 
-**Build → Measure → Test → Audit → Improve**
+<p align="center">
+  <img src="./metrics.svg" alt="GitHub activity, languages, repositories, and contribution metrics" width="900" />
+</p>
 
-I care about more than getting an LLM to produce a good demo. I focus on whether an AI system is **measurable, testable, debuggable, and reliable enough to operate in real software**.
+---
+
+## How I Build
+
+**Design → Build → Test → Measure → Improve**
+
+I care about both sides of the stack: making AI systems useful and reliable, and building the software, APIs, data pipelines, and infrastructure around them.
 
 ---
 
 ## Currently
 
-Building production-oriented GenAI systems at Ericsson while continuing work in machine learning, computer vision, and AI for healthcare.
+Building production-oriented GenAI systems at Ericsson while continuing projects in machine learning, computer vision, backend engineering, and AI for healthcare.
 
----
-
-<sub>Open to interesting problems in GenAI, AI agents, ML systems, and applied AI.</sub>
+[LinkedIn](https://www.linkedin.com/in/omarmorsi/) · [GitHub](https://github.com/omorsi45)
