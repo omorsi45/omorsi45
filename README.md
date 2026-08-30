@@ -1,80 +1,89 @@
 # Omar Morsi
 
-Computer Science student at Concordia University and GenAI Developer at Ericsson.
+**GenAI Developer @ Ericsson · Computer Science @ Concordia University**
 
-I build AI systems and software with a focus on **LLM applications, agentic systems, RAG, MCP, machine learning, and intelligent infrastructure**.
+I build AI systems that connect **LLMs, agents, tools, data, and software infrastructure**.
 
----
+My current focus is production-oriented GenAI: **agentic systems, RAG, MCP, context engineering, model routing, evaluation, and AI reliability**.
 
-## What I Work On
-
-- **Generative AI & LLMs** — agentic workflows, RAG, context engineering, evaluation, and production AI systems
-- **AI Agents & MCP** — tool-using agents, Model Context Protocol integrations, and AI-assisted developer workflows
-- **Machine Learning** — deep learning, computer vision, anomaly detection, and model evaluation
-- **Backend & Systems** — APIs, distributed services, data pipelines, and cloud-native applications
-- **AI Reliability** — hallucination detection, evaluation pipelines, testing, and observability for LLM systems
-
-At Ericsson, I work on **Generative AI engineering**, building software that connects LLMs and AI agents with real engineering workflows and infrastructure.
+[LinkedIn](https://www.linkedin.com/in/omarmorsi/) · [GitHub](https://github.com/omorsi45)
 
 ---
 
-## Selected Projects
+## What I Build
 
-### HalluciScope
-Multi-signal hallucination detection for RAG question-answering.
+```mermaid
+graph LR
+    A[User / Application] --> B[LLM Agent]
+    B --> C[Tools & MCP]
+    B --> D[RAG / Knowledge]
+    B --> E[Context Management]
+    C --> F[APIs & Infrastructure]
+    D --> B
+    E --> B
+    B --> G[Evaluation & Observability]
+```
 
-- NLI verification with DeBERTa
-- Self-consistency sampling
-- Semantic similarity and ensemble scoring
-- FastAPI + React + FAISS + Ollama
+I am especially interested in the engineering problems around AI systems:
 
-### Surgical Workflow Analysis
-Multi-task deep learning for surgical video understanding.
+- **Agents** — tool use, orchestration, model selection, and reliable execution
+- **Context** — long-context handling, compression, routing, and context-aware systems
+- **Knowledge** — RAG, retrieval, semantic search, and grounding
+- **Evaluation** — measuring quality, hallucinations, regressions, and model behavior
+- **Reliability** — testing, guardrails, failure handling, and production observability
 
-- Phase recognition and surgical tool detection
-- PyTorch, ResNet-50, and temporal convolutional models
-- Cholec80-based evaluation pipeline
-- Audited training, loss functions, checkpoint selection, and evaluation metrics
-
-### NOVA — Network Failure Prediction
-Machine learning and network simulation for detecting and analyzing network failures.
-
-- Python, Pandas, ML, GNS3
-- Network telemetry analysis and simulation
-
-### Distributed Task API
-Backend system for distributed task management.
-
-- Java, Spring Boot, PostgreSQL, Docker
-- REST APIs and persistent task management
+At Ericsson, I work on **Generative AI engineering** and AI-enabled software workflows.
 
 ---
 
-## Tech Stack
+## Selected Work
 
-**Languages**  
-Python • Java • C++ • C • JavaScript • TypeScript • SQL
+### [HalluciScope](https://github.com/omorsi45/HalluciScope)
+**RAG hallucination detection and verification**
 
-**AI / ML**  
-PyTorch • TensorFlow • scikit-learn • LLMs • RAG • Computer Vision • NLI • Model Evaluation
+DeBERTa NLI + self-consistency + semantic similarity + ensemble scoring, with a FastAPI/React interface and FAISS/Ollama-based retrieval stack.
 
-**GenAI / Agents**  
-MCP • Agentic AI • Prompt Engineering • Context Engineering • Tool Calling • AI Evaluation
+### [Surgical Workflow Analysis](https://github.com/omorsi45/surgical-workflow-analysis)
+**Multi-task deep learning for surgical video understanding**
 
-**Backend / Cloud**  
-Node.js • Spring Boot • FastAPI • PostgreSQL • Docker • AWS
+Phase recognition and surgical tool detection using PyTorch, ResNet-50, and temporal models. The project includes an audited evaluation pipeline with tests covering data handling, losses, metrics, masking, and model behavior.
 
-**Tools**  
-Git • GitHub • Linux • Power BI • GNS3 • Jupyter • VS Code
+### [NOVA](https://github.com/omorsi45/NOVA)
+**Network analysis and failure prediction**
+
+Python-based network telemetry analysis combined with GNS3 simulation and machine learning.
+
+### Distributed Task Management API
+**Backend / distributed systems**
+
+Java + Spring Boot + PostgreSQL + Docker REST API for distributed task management.
+
+---
+
+## Engineering Focus
+
+| Area | Technologies / Concepts |
+|---|---|
+| **GenAI** | LLMs · Agents · RAG · MCP · Tool Calling · Context Engineering |
+| **AI/ML** | PyTorch · TensorFlow · scikit-learn · Computer Vision · NLI |
+| **Backend** | Python · Java · Node.js · FastAPI · Spring Boot · PostgreSQL |
+| **Infrastructure** | AWS · Docker · Linux · APIs · CI/CD |
+| **Developer Tools** | Git · GitHub · Jupyter · VS Code · GNS3 |
+
+---
+
+## How I Approach AI Engineering
+
+**Build → Measure → Test → Audit → Improve**
+
+I care about more than getting an LLM to produce a good demo. I focus on whether an AI system is **measurable, testable, debuggable, and reliable enough to operate in real software**.
 
 ---
 
 ## Currently
 
-Building production-oriented GenAI systems while continuing research and projects in machine learning, computer vision, and AI for healthcare.
+Building production-oriented GenAI systems at Ericsson while continuing work in machine learning, computer vision, and AI for healthcare.
 
 ---
 
-## Connect
-
-[GitHub](https://github.com/omorsi45) • [LinkedIn](https://www.linkedin.com/in/omarmorsi/)
+<sub>Open to interesting problems in GenAI, AI agents, ML systems, and applied AI.</sub>
