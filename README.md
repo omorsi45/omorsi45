@@ -1,35 +1,80 @@
 # Omar Morsi
 
-Computer Science student at Concordia University.  
-Focused on AI/ML, intelligent systems, and medical technology.
+Computer Science student at Concordia University and GenAI Developer at Ericsson.
+
+I build AI systems and software with a focus on **LLM applications, agentic systems, RAG, MCP, machine learning, and intelligent infrastructure**.
 
 ---
 
-## About
+## What I Work On
 
-I build machine learning models and software systems that solve real-world problems.
+- **Generative AI & LLMs** — agentic workflows, RAG, context engineering, evaluation, and production AI systems
+- **AI Agents & MCP** — tool-using agents, Model Context Protocol integrations, and AI-assisted developer workflows
+- **Machine Learning** — deep learning, computer vision, anomaly detection, and model evaluation
+- **Backend & Systems** — APIs, distributed services, data pipelines, and cloud-native applications
+- **AI Reliability** — hallucination detection, evaluation pipelines, testing, and observability for LLM systems
 
-My interests include:
-- Machine Learning and Deep Learning
-- Computer Vision and Intelligent Systems
-- AI applications in healthcare
-- Backend and scalable software systems
-
-I am working toward research and development at the intersection of AI, advanced technology, and medicine.
+At Ericsson, I work on **Generative AI engineering**, building software that connects LLMs and AI agents with real engineering workflows and infrastructure.
 
 ---
 
-## Experience
+## Selected Projects
 
-**Machine Learning & Data Analytics – Nokia**
-Applied anomaly detection models and system simulations to improve large-scale network reliability.
+### HalluciScope
+Multi-signal hallucination detection for RAG question-answering.
 
-**Backend Engineering – Vodafone**
-Developed APIs and optimized SQL data pipelines to improve performance and system efficiency.
+- NLI verification with DeBERTa
+- Self-consistency sampling
+- Semantic similarity and ensemble scoring
+- FastAPI + React + FAISS + Ollama
+
+### Surgical Workflow Analysis
+Multi-task deep learning for surgical video understanding.
+
+- Phase recognition and surgical tool detection
+- PyTorch, ResNet-50, and temporal convolutional models
+- Cholec80-based evaluation pipeline
+- Audited training, loss functions, checkpoint selection, and evaluation metrics
+
+### NOVA — Network Failure Prediction
+Machine learning and network simulation for detecting and analyzing network failures.
+
+- Python, Pandas, ML, GNS3
+- Network telemetry analysis and simulation
+
+### Distributed Task API
+Backend system for distributed task management.
+
+- Java, Spring Boot, PostgreSQL, Docker
+- REST APIs and persistent task management
 
 ---
 
 ## Tech Stack
 
-Python • C++ • Java • SQL • JavaScript  
-PyTorch • scikit-learn • Node.js • Docker • Git
+**Languages**  
+Python • Java • C++ • C • JavaScript • TypeScript • SQL
+
+**AI / ML**  
+PyTorch • TensorFlow • scikit-learn • LLMs • RAG • Computer Vision • NLI • Model Evaluation
+
+**GenAI / Agents**  
+MCP • Agentic AI • Prompt Engineering • Context Engineering • Tool Calling • AI Evaluation
+
+**Backend / Cloud**  
+Node.js • Spring Boot • FastAPI • PostgreSQL • Docker • AWS
+
+**Tools**  
+Git • GitHub • Linux • Power BI • GNS3 • Jupyter • VS Code
+
+---
+
+## Currently
+
+Building production-oriented GenAI systems while continuing research and projects in machine learning, computer vision, and AI for healthcare.
+
+---
+
+## Connect
+
+[GitHub](https://github.com/omorsi45) • [LinkedIn](https://www.linkedin.com/in/omarmorsi/)
