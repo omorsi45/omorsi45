@@ -44,14 +44,13 @@ Java, Spring Boot, PostgreSQL, and Docker backend for distributed task managemen
 
 ## GitHub Activity
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=omorsi45&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" alt="GitHub stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=omorsi45&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" height="165" />
-</p>
+<div align="center">
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=omorsi45&theme=tokyonight&hide_border=true" alt="GitHub contribution streak" />
-</p>
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=omorsi45&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true)
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=omorsi45&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
+![GitHub streak](https://streak-stats.demolab.com/?user=omorsi45&theme=tokyonight&hide_border=true)
+
+</div>
 
 ---
 
@@ -66,5 +65,3 @@ I care about both sides of the stack: making AI systems useful and reliable, and
 ## Currently
 
 Building production-oriented GenAI systems at Ericsson while continuing projects in machine learning, computer vision, backend engineering, and AI for healthcare.
-
-[LinkedIn](https://www.linkedin.com/in/omarrmorsi/) · [GitHub](https://github.com/omorsi45)
