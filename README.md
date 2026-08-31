@@ -4,7 +4,7 @@
 
 I work on applied machine learning and on LLM systems: PyTorch models, evaluation, APIs, and data pipelines.
 
-Python · Java · PyTorch · scikit-learn · FastAPI · Spring Boot · RAG · Docker · PostgreSQL
+Python · Java · PyTorch · TensorFlow · scikit-learn · Computer Vision · NumPy · pandas · FastAPI · Spring Boot · Docker · PostgreSQL
 
 At Ericsson I work on generative AI engineering. Public work covers computer vision, outage prediction, and backend APIs.
 
