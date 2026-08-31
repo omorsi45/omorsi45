@@ -2,11 +2,11 @@
 
 **GenAI Developer @ Ericsson · Computer Science @ Concordia University**
 
-I build LLM applications and the APIs, data pipelines, and infrastructure around them.
+I work on applied machine learning and on LLM systems: PyTorch models, evaluation, APIs, and data pipelines.
 
-Python · Java · PyTorch · FastAPI · Spring Boot · RAG · MCP · Docker · PostgreSQL
+Python · Java · PyTorch · scikit-learn · FastAPI · Spring Boot · RAG · Docker · PostgreSQL
 
-At Ericsson I work on generative AI engineering and AI-enabled software workflows.
+At Ericsson I work on generative AI engineering. Public work covers computer vision, outage prediction, and backend APIs.
 
 ---
 
@@ -34,4 +34,4 @@ At Ericsson I work on generative AI engineering and AI-enabled software workflow
 
 ## Currently
 
-Building production GenAI systems at Ericsson. Side work in machine learning, computer vision, backend APIs, and AI for healthcare.
+Computer vision and time-series ML, plus GenAI systems at Ericsson.
