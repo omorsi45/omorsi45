@@ -21,6 +21,17 @@ At Ericsson I work on generative AI engineering and AI-enabled software workflow
 
 ---
 
+## GitHub Activity
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=omorsi45&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true&amp;include_all_commits=true" alt="" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=omorsi45&amp;layout=compact&amp;theme=tokyonight&amp;hide_border=true&amp;langs_count=8" alt="" />
+  <br/>
+  <img src="https://streak-stats.demolab.com/?user=omorsi45&amp;theme=tokyonight&amp;hide_border=true" alt="" />
+</div>
+
+---
+
 ## Currently
 
 Building production GenAI systems at Ericsson. Side work in machine learning, computer vision, backend APIs, and AI for healthcare.
