@@ -45,20 +45,11 @@ Java, Spring Boot, PostgreSQL, and Docker backend for distributed task managemen
 ## GitHub Activity
 
 <div align="center">
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=omorsi45&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true)
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=omorsi45&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
-![GitHub streak](https://streak-stats.demolab.com/?user=omorsi45&theme=tokyonight&hide_border=true)
-
+  <img src="https://github-readme-stats.vercel.app/api?username=omorsi45&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true&amp;include_all_commits=true" alt="" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=omorsi45&amp;layout=compact&amp;theme=tokyonight&amp;hide_border=true&amp;langs_count=8" alt="" />
+  <br/>
+  <img src="https://streak-stats.demolab.com/?user=omorsi45&amp;theme=tokyonight&amp;hide_border=true" alt="" />
 </div>
-
----
-
-## How I Build
-
-**Design → Build → Test → Measure → Improve**
-
-I care about both sides of the stack: making AI systems useful and reliable, and building the software, APIs, data pipelines, and infrastructure around them.
 
 ---
 
