@@ -14,6 +14,8 @@ At Ericsson I work on generative AI engineering and AI-enabled software workflow
 
 | Project | Problem | What I built |
 |---|---|---|
+| [Hazard](https://github.com/omorsi45/hazard) | Running entire test suites for every coding-agent change is slow and expensive | Coding-agent test harness that ranks impacted tests from dependency, coverage, and semantic signals, with calibrated recall guarantees and automatic full-suite fallback when confidence is insufficient. |
+| [Twinwright](https://github.com/omorsi45/twinwright) | Autonomous agents need realistic reliability testing before touching production systems | Executable digital twins with stateful tools, durable execution, deterministic evaluation, fault injection, replay, checkpointing, counterfactual forks, and OpenTelemetry traces. |
 | [Evolve Skills](https://github.com/omorsi45/evolve-skills) | Agent Skills stay static even after repeated real-world use | Open-source skill evolution system inspired by Google's WikiSkill research: real execution traces → persistent wiki → targeted `SKILL.md` proposals, with human approval and benchmark-gated updates. |
 | [HalluciScope](https://github.com/omorsi45/HalluciScope) | RAG answers that look right but are not grounded in the source | Claim-level ensemble: NLI, self-consistency, semantic similarity. FastAPI + React, FAISS, Ollama. Per-claim hallucination score + HaluEval ablation. |
 | [Surgical workflow](https://github.com/omorsi45/surgical-workflow-analysis) | Joint phase recognition and tool tracking in laparoscopic video | Multi-task MS-TCN on frozen ResNet-50 features, plus a correlation loss for impossible tool-phase pairs. Four-model comparison, 64 tests, Cholec80 subset. |
@@ -33,8 +35,3 @@ At Ericsson I work on generative AI engineering and AI-enabled software workflow
   </picture>
 </div>
 
----
-
-## Currently
-
-Computer vision and time-series ML, plus GenAI systems at Ericsson.
