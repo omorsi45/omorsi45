@@ -4,8 +4,6 @@ GenAI Developer at Ericsson. Computer Science at Concordia University.
 
 I build applied ML and LLM systems: evaluation pipelines, agent reliability tooling, and production-oriented AI APIs. At Ericsson I work on generative AI engineering and AI-enabled software workflows.
 
-**Stack:** Python, Java, PyTorch, FastAPI, Spring Boot, Docker, PostgreSQL
-
 ---
 
 ## Agent reliability and tooling
