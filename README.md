@@ -1,37 +1,26 @@
 # Omar Morsi
 
-**GenAI Developer @ Ericsson · Computer Science @ Concordia University**
+GenAI Developer at Ericsson. Computer Science at Concordia University.
 
-I build applied ML and LLM systems — from PyTorch models and evaluation pipelines to APIs and production-oriented AI tooling.
+I build applied ML and LLM systems: evaluation pipelines, agent reliability tooling, and production-oriented AI APIs. At Ericsson I work on generative AI engineering and AI-enabled software workflows.
 
-Python · Java · PyTorch · TensorFlow · scikit-learn · Computer Vision · NumPy · pandas · FastAPI · Spring Boot · Docker · PostgreSQL
-
-At Ericsson I work on generative AI engineering and AI-enabled software workflows.
+**Stack:** Python, Java, PyTorch, FastAPI, Spring Boot, Docker, PostgreSQL
 
 ---
 
-## Featured work
+## Agent reliability and tooling
 
-| Project | Problem | What I built |
-|---|---|---|
-| [Hazard](https://github.com/omorsi45/hazard) | Running entire test suites for every coding-agent change is slow and expensive | Coding-agent test harness that ranks impacted tests from dependency, coverage, and semantic signals, with calibrated recall guarantees and automatic full-suite fallback when confidence is insufficient. |
-| [Twinwright](https://github.com/omorsi45/twinwright) | Autonomous agents need realistic reliability testing before touching production systems | Executable digital twins with stateful tools, durable execution, deterministic evaluation, fault injection, replay, checkpointing, counterfactual forks, and OpenTelemetry traces. |
-| [Evolve Skills](https://github.com/omorsi45/evolve-skills) | Agent Skills stay static even after repeated real-world use | Open-source skill evolution system inspired by Google's WikiSkill research: real execution traces → persistent wiki → targeted `SKILL.md` proposals, with human approval and benchmark-gated updates. |
-| [HalluciScope](https://github.com/omorsi45/HalluciScope) | RAG answers that look right but are not grounded in the source | Claim-level ensemble: NLI, self-consistency, semantic similarity. FastAPI + React, FAISS, Ollama. Per-claim hallucination score + HaluEval ablation. |
-| [Surgical workflow](https://github.com/omorsi45/surgical-workflow-analysis) | Joint phase recognition and tool tracking in laparoscopic video | Multi-task MS-TCN on frozen ResNet-50 features, plus a correlation loss for impossible tool-phase pairs. Four-model comparison, 64 tests, Cholec80 subset. |
-| [Medical Insurance Regression](https://github.com/omorsi45/medical-insurance-linear-regression) | Predict medical insurance charges from patient attributes | Ridge regression with feature engineering, preprocessing, and cross-validation for robust charge prediction. |
-| [NOVA](https://github.com/omorsi45/nova-network-failure-prediction) | Predict node outages from telemetry and syslog | Ingest → windowed features → supervised MLP + autoencoder. Public-data reimplementation of internship work. |
-| [Distributed Task API](https://github.com/omorsi45/distributed-task-api) | Task API that survives duplicate writes and concurrent updates | Java 21 / Spring Boot: idempotency keys, optimistic locking, Flyway, Testcontainers, Docker Compose. |
+- **[Hazard](https://github.com/omorsi45/hazard)**: Test harness for coding agents. Avoids running the full suite on every change by ranking impacted tests from dependency, coverage, and semantic signals, with calibrated recall guarantees and automatic full-suite fallback when confidence is low.
+- **[Twinwright](https://github.com/omorsi45/twinwright)**: Executable digital twins for testing autonomous agents before they touch production. Stateful tools, durable execution, deterministic evaluation, fault injection, replay, checkpointing, counterfactual forks, and OpenTelemetry traces.
+- **[Evolve Skills](https://github.com/omorsi45/evolve-skills)**: Open-source skill evolution system inspired by Google's WikiSkill research. Real execution traces feed a persistent wiki, which produces targeted `SKILL.md` proposals gated by human approval and benchmarks.
 
----
+## LLM evaluation
 
-## GitHub Activity
+- **[HalluciScope](https://github.com/omorsi45/HalluciScope)**: Detects RAG answers that look right but are not grounded in the source. Claim-level ensemble of NLI, self-consistency, and semantic similarity, with a per-claim hallucination score and HaluEval ablation. FastAPI, React, FAISS, Ollama.
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=omorsi45&amp;theme=github_dark">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=omorsi45&amp;theme=default">
-    <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=omorsi45&amp;theme=default" alt="Omar Morsi's GitHub profile summary" />
-  </picture>
-</div>
+## Applied ML and backend
 
+- **[NOVA](https://github.com/omorsi45/nova-network-failure-prediction)**: Predicts node outages from telemetry and syslog. Windowed features into a supervised MLP and an autoencoder. Public-data reimplementation of internship work.
+- **[Surgical Workflow Analysis](https://github.com/omorsi45/surgical-workflow-analysis)**: Joint phase recognition and tool tracking in laparoscopic video. Multi-task MS-TCN on frozen ResNet-50 features, plus a correlation loss for impossible tool-phase pairs. Four-model comparison, 64 tests, Cholec80 subset.
+- **[Distributed Task API](https://github.com/omorsi45/distributed-task-api)**: Java 21 / Spring Boot task API that survives duplicate writes and concurrent updates. Idempotency keys, optimistic locking, Flyway, Testcontainers, Docker Compose.
+- **[Medical Insurance Regression](https://github.com/omorsi45/medical-insurance-linear-regression)**: Ridge regression with feature engineering, preprocessing, and cross-validation to predict insurance charges.
